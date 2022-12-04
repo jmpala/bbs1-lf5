@@ -9,11 +9,11 @@ Variante 1
 """
 
 
-def print_result(res):
-    if len(res) <= 0:
-        print("Cant print empty array...")
-        return
-    for r in res:
+# def print_result(res):
+#     if len(res) <= 0:
+#         print("Cant print empty array...")
+#         return
+#     for r in res:
 
 
 # 50, 20, 10, 5, 2, 1
