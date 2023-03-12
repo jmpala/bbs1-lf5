@@ -9,10 +9,6 @@ def selection_sort(liste: list):  # out-of place
     while len(liste) > 0:
         i_small = 0
 
-        if len(liste) == 1:
-            ordered_liste.append(liste.pop())
-            break
-
         for i in range(1, len(liste)):
             if liste[i_small] > liste[i]:
                 i_small = i
